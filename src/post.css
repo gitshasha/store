@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+.Row {
+  display: grid;
+  font-family: "Poppins", sans-serif;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width: 767px) {
+  .Row {
+    font-family: "Poppins", sans-serif;
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+    grid-template-rows: 1fr;
+  }
+}

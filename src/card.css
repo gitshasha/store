@@ -1,0 +1,39 @@
+.card {
+  height: 40vh;
+  width: 20vw;
+  position: relative;
+  background-color: rgb(246, 246, 255);
+  border: 1px solid gray;
+}
+.card img {
+  height: 70%;
+  width: 100%;
+  margin-bottom: 1em;
+  object-fit: cover;
+}
+.price {
+  display: flex;
+}
+
+.price p {
+  text-decoration: line-through;
+  color: gray;
+}
+.share {
+  position: absolute;
+  left: 20vh;
+  height: 30px;
+  width: 30px;
+}
+@media (max-width: 767px) {
+  .card {
+    height: 40vh;
+    width: 23.9vh;
+  }
+  .price {
+    font-size: 12px;
+  }
+  .title {
+    font-size: 15px;
+  }
+}
