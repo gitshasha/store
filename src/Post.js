@@ -32,7 +32,6 @@ function Post() {
             id={post._id}
             img={post.mainImage.asset.url}
             title={post.title}
-            slug={post.slug.current}
           />
         ))}
     </div>

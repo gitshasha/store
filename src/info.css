@@ -1,0 +1,72 @@
+.slider {
+  height: 65vh;
+  width: 100vw;
+  object-fit: contain;
+  margin: auto;
+}
+.info {
+  height: 100vh;
+  background-color: rgb(231, 225, 225);
+}
+
+.priceinfo {
+  height: 20vh;
+  background-color: white;
+  padding: 2vh;
+  font-size: 1.7em;
+}
+.emi {
+  display: flex;
+  justify-content: space-between;
+}
+.emi p {
+  font-weight: bold;
+  color: rgb(255, 19, 19);
+}
+.quality {
+  padding: 2vh;
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5em;
+
+  margin: 20px 0px 20px 0px;
+}
+.quality h5 {
+  font-size: 0.9em;
+}
+.quality p {
+  font-size: 0.9em;
+}
+.pricedet {
+  display: flex;
+  font-size: 0.8em;
+  color: rgb(0, 0, 0);
+}
+.pricedet p {
+  text-decoration: line-through;
+  color: grey;
+}
+.back {
+  display: none;
+}
+@media (max-width: 567px) {
+  .back {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .thumbs {
+    display: none;
+  }
+
+  .share2 {
+    height: 6vh;
+    width: 6vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

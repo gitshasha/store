@@ -1,0 +1,15 @@
+.similar {
+  display: grid;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 767px) {
+  .similar {
+    font-family: "Poppins", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0fr;
+  }
+}
